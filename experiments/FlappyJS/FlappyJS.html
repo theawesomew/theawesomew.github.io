@@ -44,7 +44,7 @@
 	
 	currentstate,
 	states = {
-		Menu: 0, Splash: 1, Game: 2, Score: 3
+		Menu: 0, Splash: 1, Game: 2, Score: 3,
 	}
 	
 	bird = {
@@ -55,8 +55,8 @@
 		animation: [0, 1, 2, 1],
 		rotation: 0,
 		radius: 12,
-		gravity: 0.1,
-		_jump: 3,
+		gravity: 0.25,
+		_jump: 4.6,
 		
 		jump: function (){
 			this.velocity = -this._jump;
