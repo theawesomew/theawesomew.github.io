@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title></title>
+</head>
+<body>
+
+	<span id='response'></span>
+
+	<button></button>
+	<button></button>
+	<button></button>
+	<button></button>
+	<button></button>
+
+	<script>
+
+		let response = document.getElementById("response");
+		
+		let initialStones = [7, 7, 9, 5, 7];
+
+		let buttons = document.getElementsByTagName("button");
+
+		let i = 0;
+		for (let button of buttons) {
+			button.index = i;
+			button.addEventListener("click", editValues);
+			i++;
+		}
+
+		function render () {
+			for (let i = 0; i < initialStones.length; i++) {
+				buttons[i].innerHTML = initialStones[i].toString() + " stones";
+			}
+		}
+
+		function hasWon () {
+			let s = 0;
+			for (let stone of initialStones) s += stone;
+
+			if (s == 1) {
+				return true;
+			}
+			return false;
+		}
+
+		function editValues (evt) {
+			let stone = evt.target;
+
+			for (let i = 0; i < initialStones.length; i++) {
+				if (initialStones[i] == 0 && stone.index != i) {
+					lost();
+					return;
+				}
+			}
+
+			for (let i = 0; i < initialStones.length; i++) {
+				if (i == stone.index) {
+					initialStones[i]++;
+				} else {
+					initialStones[i]--;
+				}
+			}
+		}
+
+		function lost () {
+			response.style = "color: red;";
+			response.innerHTML = "Wrong answer!";
+		}
+
+		function won () {
+			response.style = "color: green;";
+			response.innerHTML = "Correct!";
+		}
+
+		setInterval(function () {
+			render();
+			if (hasWon()) {
+				won();
+			}
+		}, 1000/60);
+	</script>
+
+</body>
+</html>
