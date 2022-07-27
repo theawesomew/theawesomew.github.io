@@ -24,5 +24,5 @@ You can rely on some nonsense like this for you math...
 
 ## Using odometry
 
-<center><img src="https://i.stack.imgur.com/B0PzT.jpg" width="500"></center>
+<p style='text-align: center;'><img src="https://i.stack.imgur.com/B0PzT.jpg" width="500"></p>
 
