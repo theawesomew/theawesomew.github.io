@@ -24,7 +24,11 @@ And presto! You can have a way of localizing your robot. Keep track of all of th
 
 This method - while a completely viables means of directing your robot's motion - is not necessarily the most accurate & it falls into a couple of pitfalls.
 
-They are... ***What? You thought you'd just listen & get told all the answers? Huh?***
+They are... ***What? You thought you'd just listen & get told all the answers? Huh? Nope. I'm leaving this future Will to discuss with you all & cringe at how unfunny this 'breaking the fourth wall' crap is. BUT, Markdown has cool list :)***
+
+- See?
+- It's sick
+
 
 ## Using encoders
 
