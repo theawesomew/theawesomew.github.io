@@ -20,7 +20,11 @@ You can rely on some nonsense like this for your math...
 
 <img src="https://images.saymedia-content.com/.image/t_share/MTc0MTc0MDM4NTM1NDQ4NDQ0/using-the-magic-triangle-for-speed-distance-and-time-compound-measures.jpg" width="500"/>
 
-And presto! You can have a way of localizing your robot. Keep track of all of the distances you 'request' it to go & then add them all together. 
+And presto! You can have a way of localizing your robot. Keep track of all of the distances you 'request' it to go & then add them all together.
+
+This method - while a completely viables means of directing your robot's motion - is not necessarily the most accurate & it falls into a couple of pitfalls.
+
+They are... ***What? You thought you'd just listen & get told all the answers? Huh?***
 
 ## Using encoders
 
