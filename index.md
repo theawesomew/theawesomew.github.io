@@ -16,13 +16,15 @@ For like 10 minutes ( because hearing myself speak for longer will literally mak
 
 This concept is pretty simple. If you know the maximum velocity of your robot and you know the distance you want to travel, you can just divide the distance by the velocity.
 
-You can rely on some nonsense like this for you math...
+You can rely on some nonsense like this for your math...
 
-![](https://images.saymedia-content.com/.image/t_share/MTc0MTc0MDM4NTM1NDQ4NDQ0/using-the-magic-triangle-for-speed-distance-and-time-compound-measures.jpg)
+<img src="https://images.saymedia-content.com/.image/t_share/MTc0MTc0MDM4NTM1NDQ4NDQ0/using-the-magic-triangle-for-speed-distance-and-time-compound-measures.jpg" width="500"/>
+
+And presto! You can have a way of localizing your robot. Keep track of all of the distances you 'request' it to go & then add them all together. 
 
 ## Using encoders
 
 ## Using odometry
 
-<p style='text-align: center;'><img src="https://i.stack.imgur.com/B0PzT.jpg" width="500"></p>
+<img src="https://i.stack.imgur.com/B0PzT.jpg" width="500">
 
