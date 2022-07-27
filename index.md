@@ -34,6 +34,8 @@ They are... ***What? You thought you'd just listen & get told all the answers? H
 
 ## Using encoders
 
+An alternative solution to the problem of localization is through the use of encoders. Encoders are electromechanical devices which 'count' the number of rotations an axel does over a given period and returns that information as a digitally encoded signal called a PWM (pulse-width modulated) signal.
+
 <img src="https://blog.pitsco.com/hs-fs/hubfs/Blog%20Images/Torquenado2-1366-0917.png?width=514&name=Torquenado2-1366-0917.png" width="500">
 
 ## Using odometry
