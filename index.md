@@ -34,11 +34,19 @@ They are... ***What? You thought you'd just listen & get told all the answers? H
 
 ## Using encoders
 
-An alternative solution to the problem of localization is through the use of encoders. Encoders are electromechanical devices which 'count' the number of rotations an axel does over a given period and returns that information as a digitally encoded signal called a PWM (pulse-width modulated) signal.
+An alternative solution to the problem of localization is through the use of encoders. Encoders are electromechanical devices which 'count' the number of rotations an axel does over a given period and returns that information as a digitally encoded signal called a PWM (pulse-width modulated) signal. The concept is simple: if you know where the robot was relative to its environment initially & the diameter of the wheel, you can query the robot's encoders to calculate its 'pose' over time. This enables you to very accurately assess the position of the robot over time.
 
 <img src="https://blog.pitsco.com/hs-fs/hubfs/Blog%20Images/Torquenado2-1366-0917.png?width=514&name=Torquenado2-1366-0917.png" width="500">
 
+However, much like the 'timer' based system we discussed before hand, it has some flaws...
+
+**Speak. This isn't a warning, it's a promise**
+
 ## Using odometry
 
+The final solution to localization we'll discuss is a technique called 'Dead-Wheel Odometry'. Dead-wheel odometry is the 3 unpowered wheels that are attached to axel encoders. The premise is that as the robot moves - and only when the robot moves - the deadwheel roll along the ground correspondingly. This means that motion is only detected by the odometry system when motion actually occurs leading to significantly more accurate results than either timer-based or encoder-based systems. Using information like the diameter of the wheels, their configuration on the robot, and the encoder values themselves enables teams to accurately localize their robot with essentially 0 error.
+
 <img src="https://i.stack.imgur.com/B0PzT.jpg" width="500">
+
+What's somewhat interesting about dead-wheel odometry is that it's pretty much used exclusively within FTC - most commercial robots have other mechanisms which involve the use of devices like LiDAR, RADAR, infrared transpoders, etc. 
 
