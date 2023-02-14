@@ -1,4 +1,4 @@
-![Happy Valentine's Day](https://static.toiimg.com/thumb/msid-89540777,imgsize-36896,width-800,height-600,resizemode-75/89540777.jpg)
+<img src="https://static.toiimg.com/thumb/msid-89540777,imgsize-36896,width-800,height-600,resizemode-75/89540777.jpg" style="width: 50%; height: auto;"/>
 
 Dearest Makenzi,
 
