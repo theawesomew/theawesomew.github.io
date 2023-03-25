@@ -41,17 +41,6 @@ jobs:
         with:
           hugo-version: 'latest'
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 'latest'
-          cache: 'npm'    
-
-      - name: Build
-        run: |
-          npm ci 
-          npm run build
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
