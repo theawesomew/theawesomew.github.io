@@ -16,9 +16,9 @@ Dear Makenzi,
 
 Happy Birthday!
 
-I cannot believe I have been around for 3 birthdays already - and I am deeply honoured to have been there for every singgle one of htem (and very lucky to have been at the first one else I may not have been at the rest of them)
+I cannot believe I have been around for 3 birthdays already - and I am deeply honoured to have been there for every single one of them (and very lucky to have been at the first one else I may not have been at the rest of them)
 
-You are, without doubt, the most amazing person I have ever have the pleasure of meeting. You are so kind, loving, supportive, attentive, empathetic, intelligent, beautiful & compassionate - it truly amazes me.
+You are, without doubt, the most amazing person I have ever had the pleasure of meeting. You are so kind, loving, supportive, attentive, empathetic, intelligent, beautiful & compassionate - it truly amazes me.
 
 I am constantly in awe of the way in which you enrich my life and the lives of every single person who has the honour of calling you their friend.
 
